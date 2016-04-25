@@ -1,0 +1,14 @@
+Koji je redosled unistavanja objekata u primeru:
+int a(3);
+main() {
+int* n = new int(10);
+int k(3);
+...
+delete n;
+}
+Odgovori:
+n, k, a
+k, n, a
+a, n, k
+k, a, n
+n, k, a

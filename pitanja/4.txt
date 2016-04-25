@@ -1,0 +1,11 @@
+Koja linija koda je neispravna?
+short* p = new short;
+short* p = new short[900];
+short* p = new short(900);
+short** p = new short[900];
+Odgovori:
+1
+2
+3
+4
+4

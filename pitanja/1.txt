@@ -1,0 +1,7 @@
+Koji tip podataka nije podrzan u programskom jeziku C?
+Odgovori:
+int
+string
+char
+bool
+string

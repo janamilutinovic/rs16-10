@@ -1,0 +1,14 @@
+Sta ce ispisati naredni program:
+int a = 1;
+int* b=&a;
+main(){
+    *b = a + 1;
+    *b = a + 1;
+    cout << a << endl;
+}
+Odgovori:
+1
+3
+0
+2
+3
