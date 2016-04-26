@@ -28,7 +28,7 @@ quiz::quiz(QWidget *parent) :
 
     QString fileN= QString(pwd+k+".txt");
 
-    readTxtFile(fileN);
+    readFile(fileN);
 
 }
 
@@ -38,7 +38,7 @@ quiz::~quiz()
 }
 
 
-void quiz::readTxtFile(QString fileName)
+void quiz::readFile(QString fileName)
 {
     QFile file(fileName);
 
