@@ -25,7 +25,7 @@ private slots:
 
 private:
     Ui::quiz *ui;
-    void readTxtFile(QString fileName);
+    void readFile(QString fileName);
     QString correct_answer;
 };
 
