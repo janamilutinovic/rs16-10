@@ -44,7 +44,7 @@ void quiz::readFile(QString fileName)
 
     if(!file.open(QIODevice::ReadOnly))
     {
-        QMessageBox::warning(this, "Ucitavanje podataka o studentu", "Ne moze da se otvori datoteka", QMessageBox::Ok);
+        QMessageBox::warning(this, "Quiz", "Ne moze da se otvori datoteka", QMessageBox::Ok);
     }
     else
     {
